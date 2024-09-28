@@ -33,7 +33,7 @@ public class Calculator {
         }
       
       double average = (double) totalMarks / num;
-      String grade = Grade(averagePercentage);
+      String grade = Grade(average);
        System.out.println("\n--- Results ---");
         System.out.println("Total Marks: " + totalMarks);
         System.out.println("Average Percentage: " + average + "%");
